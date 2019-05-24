@@ -1,4 +1,5 @@
 # Bootstrap-template
+
 Steps to create a Bootstrap template with the task runner called Gulp with the help of the Node.js development environment
 
 ## 1) INITIALIZATION
@@ -8,7 +9,7 @@ To initialize a project in Node.Js:
 npm init --yes
 ```
 
-This will create the file "package.json" with the Project Description. EJ:
+This will create the file "[package.json](https://github.com/FabriJuncal/Bootstrap-template/blob/master/package.json)" with the Project Description. EJ:
 
 ```json
 {
@@ -37,7 +38,7 @@ This will create the file "package.json" with the Project Description. EJ:
 	npm install bootstrap font-awesome jquery popper.js
 ```
 
-This will update the file "package.json" and it would look like this:
+This will update the file "[package.json](https://github.com/FabriJuncal/Bootstrap-template/blob/master/package.json)" and it would look like this:
 
 ```json
 {
@@ -60,7 +61,7 @@ This will update the file "package.json" and it would look like this:
 }
 ```
 
-A directory with the name "node_modules" with the following directories will also be created inside:
+A directory with the name <b>"node_modules"</b> with the following directories will also be created inside:
 
 * bootstrap 
 * font-awesome 
@@ -79,9 +80,9 @@ A directory with the name "node_modules" with the following directories will als
     npm install -D gulp gulp-cli gulp-sass browser-sync
 ```
 
-As we can see after "install" add "- D" this is so that we do not install these tools as dependencies,
+As we can see after <b>"install"</b> add <b>"- D"</b> this is so that we do not install these tools as dependencies,
 since our project will not depend on these, because they will only help us in the development.
-The file "package.json" will be updated and would look like this:
+The file "[package.json](https://github.com/FabriJuncal/Bootstrap-template/blob/master/package.json)" will be updated and would look like this:
 
 ```json
     {
@@ -113,21 +114,21 @@ The file "package.json" will be updated and would look like this:
 
 ## 4) WE CREATE OUR WORK ARCHIVES
 
-* We create the file "gulpfile.js": In this file we will write all the tasks automated with Gulp.
-* We created the following route "src/scss/main.scss": Here all the Sass code that we will write will go.
-* We create the HTML file in the following directory "src/index.hmtl": In this way we are creating all the necessary HTML files
+* We create the file "[gulpfile.js](https://github.com/FabriJuncal/Bootstrap-template/blob/master/gulpfile.js)": In this file we will write all the tasks automated with Gulp.
+* We created the following route "[src/scss/main.scss](https://github.com/FabriJuncal/Bootstrap-template/tree/master/src/scss)": Here all the Sass code that we will write will go.
+* We create the HTML file in the following directory "[src/index.hmtl](https://github.com/FabriJuncal/Bootstrap-template/tree/master/src)": In this way we are creating all the necessary HTML files
 
 <hr>
 
 ## 5) WE PROGRAM THE TASKS
 
-In the file "gulpfile.js" we program the tasks that we want to automate.
+In the file "[gulpfile.js](https://github.com/FabriJuncal/Bootstrap-template/blob/master/gulpfile.js)" we program the tasks that we want to automate.
 
 <hr>
 
 ## 6) WE CREATE OUR PERSONALIZED COMMAND FROM THE ENVIRONMENT OF NODE.JS
 
-In the "package.json" file, within the "scripts" value we add:
+In the "[package.json](https://github.com/FabriJuncal/Bootstrap-template/blob/master/package.json)" file, within the "scripts" value we add:
 
 ```json
     "scripts": {
@@ -167,7 +168,7 @@ We would stay as follows:
 
 ## 7) WE EXECUTE THE PERSONALIZED COMMAND THAT WAS CREATED
 
- Executing the following command will be the same as executing the "gulp" command:
+ Executing the following command will be the same as executing the <b>"gulp"</b> command:
 
 ```bash
     npm start
