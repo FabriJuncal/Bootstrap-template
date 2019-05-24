@@ -66,6 +66,7 @@ npm init --yes
 * popper.js 
 
 <hr>
+
 ## 3) INSTALL THE TOOLS THAT WILL HELP US IN DEVELOPMENT
 
 * Gulp (A Task Runner)
@@ -120,11 +121,12 @@ The file <b> "package.json" </ b> will be updated and would look like this:
 ### In the file "gulpfile.js" we program the tasks that we want to automate.
 
 <hr>
+
 ## 6) WE CREATE OUR PERSONALIZED COMMAND FROM THE ENVIRONMENT OF NODE.JS
 
 ### In the "package.json" file, within the "scripts" value we add:
 
-```bash
+```json
     "scripts": {
     "start": "gulp"
     }
@@ -162,8 +164,9 @@ The file <b> "package.json" </ b> will be updated and would look like this:
 
 ## 7) WE EXECUTE THE PERSONALIZED COMMAND THAT WAS CREATED
 
-### Executing the following command will be the same as executing the "gulp" command:
+ Executing the following command will be the same as executing the "gulp" command:
 
 ```bash
     npm start
 ```
+
