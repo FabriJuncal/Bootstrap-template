@@ -2,13 +2,13 @@
 Steps to create a Bootstrap template with the task runner called Gulp with the help of the Node.js development environment
 
 ## 1) INITIALIZATION
-### To initialize a project in Node.Js:
+To initialize a project in Node.Js:
 
 ```bash
 npm init --yes
 ```
 
-### This will create the file "package.json" with the Project Description. EJ:
+This will create the file "package.json" with the Project Description. EJ:
 
 ```json
 {
@@ -37,7 +37,7 @@ npm init --yes
 	npm install bootstrap font-awesome jquery popper.js
 ```
 
-### This will update the file "package.json" and it would look like this:
+This will update the file "package.json" and it would look like this:
 
 ```json
 {
@@ -60,7 +60,7 @@ npm init --yes
 }
 ```
 
-### A directory with the name "node_modules" with the following directories will also be created inside:
+A directory with the name "node_modules" with the following directories will also be created inside:
 
 * bootstrap 
 * font-awesome 
@@ -121,13 +121,13 @@ The file "package.json" will be updated and would look like this:
 
 ## 5) WE PROGRAM THE TASKS
 
-### In the file "gulpfile.js" we program the tasks that we want to automate.
+In the file "gulpfile.js" we program the tasks that we want to automate.
 
 <hr>
 
 ## 6) WE CREATE OUR PERSONALIZED COMMAND FROM THE ENVIRONMENT OF NODE.JS
 
-### In the "package.json" file, within the "scripts" value we add:
+In the "package.json" file, within the "scripts" value we add:
 
 ```json
     "scripts": {
@@ -135,7 +135,7 @@ The file "package.json" will be updated and would look like this:
     }
 ```
 
-### We would stay as follows:
+We would stay as follows:
 
 ```json
 {
