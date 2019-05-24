@@ -162,7 +162,7 @@ El archivo <b>"package.json"</b> se actualizará y quedaria asi:
 ```
 <hr>
 
-## 7) EJECUTAMOS EL COMANDO PERSONALIZADO QUE SE CREAMOS
+## 7) EJECUTAMOS EL COMANDO PERSONALIZADO QUE SE CREAO
 
 ### Ejecutar el siguiente comando será lo mismo que ejecutar el comando "gulp":
 
