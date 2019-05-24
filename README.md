@@ -36,6 +36,7 @@ npm init --yes
 ```bash
 	npm install bootstrap font-awesome jquery popper.js
 ```
+
 ### This will update the file "package.json" and it would look like this:
 
 ```json
@@ -58,6 +59,7 @@ npm init --yes
   }
 }
 ```
+
 ### A directory with the name "node_modules" with the following directories will also be created inside:
 
 * bootstrap 
@@ -76,9 +78,10 @@ npm init --yes
 ```bash
     npm install -D gulp gulp-cli gulp-sass browser-sync
 ```
-As we can see after <b> "install" </ b> add <b> "- D" </ b> this is so that we do not install these tools as dependencies,
+
+As we can see after "install" add "- D" this is so that we do not install these tools as dependencies,
 since our project will not depend on these, because they will only help us in the development.
-The file <b> "package.json" </ b> will be updated and would look like this:
+The file "package.json" will be updated and would look like this:
 
 ```json
     {
@@ -110,9 +113,9 @@ The file <b> "package.json" </ b> will be updated and would look like this:
 
 ## 4) WE CREATE OUR WORK ARCHIVES
 
-* We create the file <b> "gulpfile.js" </ b>: In this file we will write all the tasks automated with Gulp.
-* We created the following route <b> "src / scss / main.scss" </ b>: Here all the Sass code that we will write will go.
-* We create the HTML file in the following directory <b> "src / index.hmtl" </ b>: In this way we are creating all the necessary HTML files
+* We create the file "gulpfile.js": In this file we will write all the tasks automated with Gulp.
+* We created the following route "src/scss/main.scss": Here all the Sass code that we will write will go.
+* We create the HTML file in the following directory "src/index.hmtl": In this way we are creating all the necessary HTML files
 
 <hr>
 
