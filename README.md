@@ -1,6 +1,6 @@
 # Bootstrap-template
 
-Steps to create a Bootstrap template with the task runner called Gulp with the help of the Node.js development environment
+> ## Steps to create a Bootstrap template with the task runner called Gulp with the help of the Node.js development environment
 
 ## 1) INITIALIZATION
 To initialize a project in Node.Js:
